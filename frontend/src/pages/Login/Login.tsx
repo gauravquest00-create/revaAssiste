@@ -88,11 +88,7 @@ export const Login: React.FC = () => {
           </button>
         </form>
 
-        <div className="login-hint-box">
-          <span className="hint-title">Seeded Developer Admin Access:</span>
-          <span className="hint-val">Email: gauravquest00@gmail.com</span>
-          <span className="hint-val">Password: Admin123@</span>
-        </div>
+    
       </div>
     </div>
   );
