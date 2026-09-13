@@ -1,0 +1,43 @@
+.reva-empty-state {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 48px 24px;
+  background-color: var(--bg-card);
+  border: 1px dashed var(--border-light);
+  border-radius: var(--radius-lg);
+  text-align: center;
+}
+
+.empty-state-icon {
+  color: var(--text-muted);
+  margin-bottom: 14px;
+}
+
+.empty-state-title {
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: var(--secondary);
+  margin-bottom: 6px;
+}
+
+.empty-state-desc {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  max-width: 380px;
+  margin-bottom: 18px;
+}
+
+.empty-state-btn {
+  background-color: var(--primary);
+  color: #ffffff;
+  font-size: 0.85rem;
+  font-weight: 600;
+  padding: 8px 16px;
+  border-radius: var(--radius-md);
+}
+
+.empty-state-btn:hover {
+  background-color: var(--primary-hover);
+}

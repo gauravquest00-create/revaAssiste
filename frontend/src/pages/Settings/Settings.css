@@ -1,0 +1,108 @@
+.settings-page {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.settings-title {
+  font-size: 1.35rem;
+  font-weight: 700;
+  color: var(--secondary);
+}
+
+.settings-sub {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin-top: 2px;
+}
+
+.settings-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 20px;
+}
+
+.settings-card {
+  background-color: var(--bg-card);
+  border: 1px solid var(--border-light);
+  border-radius: var(--radius-lg);
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  box-shadow: var(--shadow-sm);
+}
+
+.card-head {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-bottom: 1px solid var(--border-light);
+  padding-bottom: 10px;
+}
+
+.head-icon {
+  font-size: 1.4rem;
+  color: var(--primary);
+}
+
+.card-title {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: var(--secondary);
+}
+
+.card-desc {
+  font-size: 0.82rem;
+  color: var(--text-muted);
+  line-height: 1.5;
+}
+
+.profile-details {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+}
+
+.config-item {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.82rem;
+  background-color: var(--bg-main);
+  padding: 8px 12px;
+  border-radius: var(--radius-sm);
+}
+
+.logout-btn {
+  margin-top: 10px;
+  background-color: var(--danger-light);
+  color: var(--danger);
+  padding: 8px;
+  border-radius: var(--radius-md);
+  font-weight: 600;
+  font-size: 0.85rem;
+}
+
+.install-app-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  background-color: var(--primary);
+  color: #ffffff;
+  padding: 10px;
+  border-radius: var(--radius-md);
+  font-weight: 600;
+  font-size: 0.85rem;
+}
+
+.pwa-status-badge {
+  background-color: var(--success-light);
+  color: var(--success);
+  font-size: 0.8rem;
+  font-weight: 600;
+  padding: 8px 12px;
+  border-radius: var(--radius-md);
+}

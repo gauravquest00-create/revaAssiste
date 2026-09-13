@@ -1,0 +1,167 @@
+.reva-login-viewport {
+  min-height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--bg-main);
+  padding: 16px;
+}
+
+.reva-login-card {
+  width: 100%;
+  max-width: 440px;
+  background-color: var(--bg-card);
+  border: 1px solid var(--border-light);
+  border-radius: var(--radius-lg);
+  padding: 36px 32px;
+  box-shadow: var(--shadow-md);
+  display: flex;
+  flex-direction: column;
+}
+
+.login-brand-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.login-logo {
+  width: 58px;
+  height: 58px;
+  object-fit: contain;
+  margin-bottom: 12px;
+}
+
+.login-app-name {
+  font-size: 1.45rem;
+  font-weight: 800;
+  color: var(--secondary);
+  letter-spacing: -0.02em;
+}
+
+.login-app-desc {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  margin-top: 4px;
+  line-height: 1.4;
+}
+
+.login-error-alert {
+  background-color: var(--danger-light);
+  border: 1px solid #fecaca;
+  color: var(--danger);
+  font-size: 0.82rem;
+  padding: 10px 14px;
+  border-radius: var(--radius-md);
+  margin-bottom: 18px;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.input-label {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--text-secondary);
+}
+
+.input-box {
+  display: flex;
+  align-items: center;
+  background-color: var(--bg-main);
+  border: 1px solid var(--border-light);
+  border-radius: var(--radius-md);
+  padding: 0 12px;
+  height: 44px;
+  transition: all var(--transition-fast);
+}
+
+.input-box:focus-within {
+  border-color: var(--primary);
+  background-color: #ffffff;
+  box-shadow: 0 0 0 2px var(--primary-border);
+}
+
+.input-icon {
+  color: var(--text-muted);
+  font-size: 1.2rem;
+  margin-right: 8px;
+}
+
+.text-input {
+  flex: 1;
+  border: none;
+  background: transparent;
+  outline: none;
+  font-size: 0.88rem;
+  color: var(--text-primary);
+}
+
+.password-toggle-btn {
+  color: var(--text-muted);
+  padding: 4px;
+  display: flex;
+  align-items: center;
+  font-size: 1.15rem;
+}
+
+.login-submit-btn {
+  margin-top: 6px;
+  height: 44px;
+  background-color: var(--primary);
+  color: #ffffff;
+  border-radius: var(--radius-md);
+  font-weight: 600;
+  font-size: 0.9rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  box-shadow: 0 2px 6px rgba(37, 99, 235, 0.25);
+}
+
+.login-submit-btn:hover {
+  background-color: var(--primary-hover);
+}
+
+.login-hint-box {
+  margin-top: 24px;
+  padding: 12px;
+  background-color: var(--bg-main);
+  border: 1px dashed var(--border-light);
+  border-radius: var(--radius-md);
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  text-align: center;
+}
+
+.hint-title {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--text-secondary);
+}
+
+.hint-val {
+  font-size: 0.72rem;
+  color: var(--text-muted);
+  font-family: monospace;
+}
+
+@media (max-width: 377px) {
+  .reva-login-card {
+    padding: 24px 18px;
+  }
+}
