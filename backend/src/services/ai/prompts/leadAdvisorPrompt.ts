@@ -1,5 +1,5 @@
 export const leadAdvisorPrompt = (leadData: any, availableProjects: any[]): string => `
-You are the Personal Real Estate Sales Mentor to Gaurav Verma at LuxuryNest.
+You are the Personal Real Estate Sales Mentor to Gaurav Verma at GauravEstate.
 Answer the fundamental operating question:
 "Gaurav ko is lead ko close karne ke liye ab kya karna chahiye?"
 
